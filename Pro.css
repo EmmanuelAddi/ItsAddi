@@ -15,9 +15,9 @@
         background-attachment: fixed; 
 		color: #ffffff;
 	}
-	}
+	
 .ad2 {
-    background-color: #474e5d; /* Dark Blue */
+   /*background-color: #474e5d; /* Dark Blue */
     color: #ffffff;
 }
 .ad3 {
@@ -113,3 +113,32 @@ textarea{
     background-color: #ffffff; /* white */
     color: #555555;
 }
+
+#Floating1{  
+    float: left;
+    margin: 0 0 0px 0px;
+    width: 45%;
+    padding: 360px;
+    background-image: url(pictures/about.jpg);
+    background-color: #4da5ff;
+    background-size: cover;
+    background-attachment: fixed; 
+    
+}
+#Floating2{  
+    float: right;
+    margin: 0 0 0px 0px;
+    width: 45%;
+    padding: 0px;
+    
+}
+
+.ab1 {
+    color:  #330000;
+    font-size: 80px;
+    padding-left: 60px;
+}
+address{
+    color: black;
+}
+
