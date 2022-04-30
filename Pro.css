@@ -1,72 +1,79 @@
 /* Add a red color to icons and set the font-size */
+
 .g1 {
-    color:  #ff4d4d;
+    color: #ff4d4d;
     font-size: 40px;
 }
+
 .g2 {
-    color:  #ff6666;
+    color: #ff6666;
     font-size: 20px;
 }
-	.ad1{
-		background-image: url(pictures/pexels-photo-897651.jpeg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        background-attachment: fixed; 
-		color: #ffffff;
-	}
-	
-.ad2 {
-   /*background-color: #474e5d; /* Dark Blue */
+
+.ad1 {
+    background-image: url(pictures/pexels-photo-897651.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     color: #ffffff;
 }
+
+.ad2 {
+    /*background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+
 .ad3 {
-    background-color: #ffffff; /* White */
+    background-color: #ffffff;
+    /* White */
     color: #555555;
 }
-.ad3 .btn{
-   font-size: 120%;
-   font-weight: 200;
-   text-transform: uppercase;
-   text-decoration: none;
-   border-radius: 10px;
-   border: solid #3a6168;
-   padding: 10px 20px;
-   margin-left: 200px;
+
+.ad3 .btn {
+    font-size: 120%;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid #3a6168;
+    padding: 10px 20px;
+    margin-left: 200px;
 }
-.ad3 .btn:hover{
+
+.ad3 .btn:hover {
     color: #ff6666;
     border: solid #ff6666;
 }
+
 .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 10px;
 }
+
 .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
+    padding: 2px;
     border-radius: 0;
     margin-bottom: 0;
     font-size: 20px;
     letter-spacing: 5px;
     font-weight: bold;
-    background-color: #ffffe5;
-
 }
 
 .navbar-nav li a:hover {
     color: #1abc9c !important;
 }
+
 .ad4 {
     background-color: #2f2f2f;
     color: #ffffff;
     display: table;
 }
+
 .ad5 {
-	background-color: #ff6666;
+    background-color: #ff6666;
     color: #ffffff;
 }
+
 body {
     font: 20px;
     line-height: 1.8;
@@ -75,26 +82,22 @@ body {
     margin: 0px;
     height: 100%;
     width: 100%;
-
 }
 
-p {font-size: 16px;
-font-family: montserrat yantramanav;}
-
-.carousel-control.right, .carousel-control.left {
-    background-image: url(pictures/17.jpeg);
-    color: #00cc99;
+p {
+    font-size: 16px;
+    font-family: montserrat yantramanav;
 }
 
-.carousel-indicators li {
-    border-color: #00cc99;
+span {
+    color: #000;
 }
 
 .carousel-indicators li.active {
     background-color: #00cc99;
 }
 
-.item h4 {
+.carousel-item h4 {
     font-size: 18px;
     line-height: 1.375em;
     font-weight: 400;
@@ -102,43 +105,35 @@ font-family: montserrat yantramanav;}
     margin: 70px 0;
 }
 
-.item span {
+.carousel-item span {
     font-style: normal;
 }
-textarea{
+
+textarea {
     resize: none;
 }
 
-.ad6{
-    background-color: #ffffff; /* white */
+.ad6 {
+    background-color: #ffffff;
+    /* white */
     color: #555555;
 }
 
-#Floating1{  
-    float: left;
-    margin: 0 0 0px 0px;
-    width: 45%;
-    padding: 360px;
-    background-image: url(pictures/about.jpg);
-    background-color: #4da5ff;
-    background-size: cover;
-    background-attachment: fixed; 
-    
-}
-#Floating2{  
-    float: right;
-    margin: 0 0 0px 0px;
-    width: 45%;
-    padding: 0px;
-    
-}
-
 .ab1 {
-    color:  #330000;
+    color: #330000;
     font-size: 80px;
     padding-left: 60px;
 }
-address{
+
+address {
     color: black;
 }
 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
