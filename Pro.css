@@ -1,15 +1,5 @@
 /* Add a red color to icons and set the font-size */
 
-.g1 {
-    color: #ff4d4d;
-    font-size: 40px;
-}
-
-.g2 {
-    color: #ff6666;
-    font-size: 20px;
-}
-
 .ad1 {
     background-image: url(pictures/pexels-photo-897651.jpeg);
     background-repeat: no-repeat;
@@ -47,54 +37,29 @@
 }
 
 .container-fluid {
-    padding: 10px;
+    padding: 8px;
+    margin: 2px;
 }
 
 .navbar {
-    padding: 2px;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 20px;
-    letter-spacing: 5px;
+    font-size: 16px;
+    letter-spacing: 4px;
     font-weight: bold;
-}
-
-.navbar-nav li a:hover {
-    color: #1abc9c !important;
-}
-
-.ad4 {
-    background-color: #2f2f2f;
-    color: #ffffff;
-    display: table;
 }
 
 .ad5 {
     background-color: #ff6666;
-    color: #ffffff;
+    color: #fff;
 }
 
 body {
     font: 20px;
     line-height: 1.8;
-    color: #f5f6f7;
-    padding: 0px;
-    margin: 0px;
-    height: 100%;
-    width: 100%;
 }
 
 p {
     font-size: 16px;
     font-family: montserrat yantramanav;
-}
-
-span {
-    color: #000;
-}
-
-.carousel-indicators li.active {
-    background-color: #00cc99;
 }
 
 .carousel-item h4 {
@@ -107,16 +72,6 @@ span {
 
 .carousel-item span {
     font-style: normal;
-}
-
-textarea {
-    resize: none;
-}
-
-.ad6 {
-    background-color: #ffffff;
-    /* white */
-    color: #555555;
 }
 
 .ab1 {
@@ -132,8 +87,13 @@ address {
 .fa {
     padding: 20px;
     font-size: 30px;
-    width: 30px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #000;
 }

@@ -68,7 +68,7 @@
 }
 
 @media (prefers-reduced-motion:no-preference) {
-    :root {
+     :root {
         scroll-behavior: smooth
     }
 }
@@ -4279,7 +4279,7 @@ fieldset:disabled .btn {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #0d6efd
+    background-color: #ff6666;
 }
 
 .nav-fill .nav-item,
@@ -4756,7 +4756,7 @@ fieldset:disabled .btn {
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: rgba(0, 0, 0, .7)
+    color: rgb(255, 76, 5)
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
@@ -4765,7 +4765,7 @@ fieldset:disabled .btn {
 
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show>.nav-link {
-    color: rgba(0, 0, 0, .9)
+    color: rgba(255, 255, 255, 0.9)
 }
 
 .navbar-light .navbar-toggler {
